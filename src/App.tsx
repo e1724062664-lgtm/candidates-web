@@ -1,11 +1,9 @@
 //rafc * TAB o ENTER
-
 const App = () => {
-  return (
-    <main>App</main>
-  )
-}
+  return <div />;
+};
 
 export default App;
+
 
 
