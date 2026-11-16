@@ -41,7 +41,7 @@ export const CandidateCard = ({ candidate, isFavorite, onToggleFavorite }: Candi
         <p className="candidate-card-no-skills">Sin habilidades registradas</p>
       )}
 
-      {/* La función se entrega dentro de una flecha: se ejecuta al hacer clic, no al dibujar. */}
+      {/* La función se entrega dentro de una flecha: se ejecuta al hacer clic. */}
       <button
         type="button"
         className={isFavorite ? 'candidate-card-favorite candidate-card-favorite-active' : 'candidate-card-favorite'}
